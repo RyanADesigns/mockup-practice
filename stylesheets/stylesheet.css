@@ -1,0 +1,36 @@
+div {
+  background-color: black;
+  color: white;
+  height: 10rem
+}
+
+div h1 {
+  font-size: 55px;
+}
+
+div #Seattles_premiere {
+  font-size: 2rem;
+  color: #6A6A6A;
+}
+
+nav {
+  height: 3.5rem;
+  background-color: #a6a6a6;
+  font-size: 1.5rem;
+  word-spacing: 10px; 
+}
+
+article {
+  display: inline-block;
+}
+
+aside {
+  float: right;
+  display: inline;
+  border: 2px solid black;
+  margin: 25px;
+}
+
+#bottom_div {
+  clear: both;
+}
