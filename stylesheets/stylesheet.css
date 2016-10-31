@@ -23,7 +23,7 @@ div #Seattles_premiere {
 
 nav {
   height: 3.5rem;
-  width: 103.7rem;
+  width: 115.7rem;
   background-color: #a6a6a6;
   font-size: 2rem;
   word-spacing: 10px;
@@ -36,16 +36,21 @@ aside {
   display: inline-block;
   border: 2px solid black;
   margin: 25px;
-  padding: 5rem 1rem 20rem;
+  padding: 5rem 1rem 5rem;
   
   background-color: white;
   color: black;
 }
 
+img {
+  height: 200px
+}
+
 
 article  {
-  width: 103.7rem;
-  height: 30rem;
+  font-size: 22px;
+  width: 115.7rem;
+  height: 100rem;
 }
 
 
@@ -53,7 +58,7 @@ article {
   display: inline-block;
   background-color:white;
   color: black;
-  height: 45rem;
+ 
   float: left;
 }
 
