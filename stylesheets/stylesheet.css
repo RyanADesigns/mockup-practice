@@ -1,7 +1,7 @@
-div {
+body {
   background-color: black;
   color: white;
-  height: 10rem
+ 
 }
 
 div h1 {
@@ -20,15 +20,30 @@ nav {
   word-spacing: 10px; 
 }
 
-article {
-  display: inline-block;
-}
-
 aside {
   float: right;
-  display: inline;
+  display: inline-block;
   border: 2px solid black;
   margin: 25px;
+  padding: 5rem 1rem 20rem;
+  height: 30rem;
+  background-color: white;
+  color: black;
+}
+
+
+article  {
+  width: 70rem;
+  height: 30rem;
+}
+
+
+article {
+  display: inline-block;
+  background-color:white;
+  color: black;
+  height: 45rem;
+  float: left;
 }
 
 #bottom_div {
