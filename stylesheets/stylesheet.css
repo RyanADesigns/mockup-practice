@@ -4,8 +4,12 @@ body {
  
 }
 
-a {
-  color: red
+ body a {
+  color: red;
+}
+div {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.3rem;
 }
 #top_div {
   text-align: right;
@@ -13,22 +17,32 @@ a {
   color: red;
 }
 div h1 {
-  font-size: 55px;
+  font-size: 75px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  letter-spacing: 0.5rem
 }
 
 div #Seattles_premiere {
   font-size: 2rem;
   color: #6A6A6A;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+span {
+  padding: 4rem;
+}
 nav {
   height: 3.5rem;
   width: 115.7rem;
   background-color: #a6a6a6;
-  font-size: 2rem;
+  font-size: 2.5rem;
   word-spacing: 10px;
   text-align: center;
-  
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+nav a {
+  color: #674169;
+  text-decoration: none;
 }
 
 aside {
@@ -37,20 +51,21 @@ aside {
   border: 2px solid black;
   margin: 25px;
   padding: 5rem 1rem 5rem;
-  
+  text-align: center;
   background-color: white;
   color: black;
 }
 
 img {
-  height: 200px
+  height: 200px;
 }
 
 
 article  {
-  font-size: 22px;
+  font-size: 35px;
   width: 115.7rem;
-  height: 100rem;
+  height: 76rem;
+  line-height: 3rem;
 }
 
 
@@ -58,7 +73,7 @@ article {
   display: inline-block;
   background-color:white;
   color: black;
- 
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   float: left;
 }
 
