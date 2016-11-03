@@ -66,10 +66,6 @@ article  {
   width: 115.7rem;
   height: 76rem;
   line-height: 3rem;
-}
-
-
-article {
   display: inline-block;
   background-color:white;
   color: black;
@@ -77,6 +73,16 @@ article {
   float: left;
 }
 
+article h1 {
+  margin-left: 0.5rem
+}
+
+article p {
+  margin-left: 1rem
+}
+article quote {
+  margin-left: 1rem
+}
 #bottom_div {
   clear: both;
 }
